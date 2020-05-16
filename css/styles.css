@@ -1,20 +1,27 @@
+html {
+  scroll-behavior:smooth;
+}
+
+
 .top-links{
   font-family: 'Monoton';
-  text-align: left;
-  margin-top: 10px;
-  margin-left: 30px;
+  margin:10px 50px 0px 50px;
   font-size: 25px;
+  color:  #45b29a;
 
+}
+.top-links:hover{
+  color:#fff;
+}
+
+.for-top{
+  margin-top: 30px;
 }
 
 a{
-  color:  #45b29a;
   text-decoration: none;
 }
 
-.top-link-text{
-margin:10px;
-}
 
 body {
   margin: 0;
@@ -76,6 +83,7 @@ p {
 
 .top-cloud {
   position: absolute;
+  bottom: 70%;
   right: 10%;
 }
 
