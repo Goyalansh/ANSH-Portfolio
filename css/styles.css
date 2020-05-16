@@ -208,6 +208,12 @@ hr {
   .top-cloud {
     margin-bottom: 70px;
   }
+
+  .social {
+    margin: 60px 40px 60px 40px;
+    height: 60px;
+    width: 60px;
+  }
 }
 
 
