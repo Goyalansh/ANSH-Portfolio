@@ -59,7 +59,9 @@ hr {
 
 #bottom-container {
   padding-top: 20px;
-    background-color: #ececec;
+  background-color: #ececec;
+  font-size:12px;
+  padding-bottom: 10px;
 }
 
 
@@ -162,7 +164,7 @@ hr {
 
 /*social symbols */
 .social {
-  margin: 20px;
+  margin: 20px 20px 5px 20px;
   height: 50px;
   width: 50px;
 }
@@ -338,14 +340,14 @@ hr {
   display: block;
   height: 8px;
   border:1px solid rgba(0,0,0,0.3);
-  border-radius: 3px;
+  border-radius: 5px;
   overflow: hidden;
   box-shadow: 0 0 10px #2187e7b3;
 
 }
 
 .bar span{
-  height: 5.5px;
+  height: 5.7px;
   float:left;
   background: #2187e7;
 }
