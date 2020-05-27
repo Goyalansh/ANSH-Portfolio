@@ -57,9 +57,9 @@ hr {
   font-weight: 400;
 }
 
-.bottom-container {
+#bottom-container {
   padding-top: 20px;
-  background-color: #222222;
+    background-color: #ececec;
 }
 
 
@@ -107,7 +107,6 @@ hr {
 
 .contact-me {
   padding: 2%;
-  background-color: #ececec;
 }
 
 
@@ -337,7 +336,7 @@ hr {
 .bar{
   background: #353b48;
   display: block;
-  height: 9px;
+  height: 8px;
   border:1px solid rgba(0,0,0,0.3);
   border-radius: 3px;
   overflow: hidden;
@@ -346,7 +345,7 @@ hr {
 }
 
 .bar span{
-  height: 6px;
+  height: 5.5px;
   float:left;
   background: #2187e7;
 }
