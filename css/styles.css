@@ -19,6 +19,8 @@ h1 {
   font-family: 'Sacramento', cursive;
 }
 
+
+
 h2 {
   color: #45b29a;
   font-size: 300%;
@@ -311,4 +313,104 @@ hr {
 #navbar {
   background-color: #fdd998;
   color: black;
+}
+
+
+.skills-bar{
+  background-color: #333;
+  padding: 3% 0 5% 0;
+  list-style: none;
+  font-family: sans-serif;
+
+
+}
+
+.skill-bar-list{
+  text-align: left;
+  padding: 0% 20% 0% 20%;
+}
+
+.skills-bar li{
+  margin:20px 0;
+}
+
+.bar{
+  background: #353b48;
+  display: block;
+  height: 3px;
+  border:1px solid rgba(0,0,0,0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #2187e7b3;
+
+}
+
+.bar span{
+  height: 2px;
+  float:left;
+  background: #2187e7;
+}
+
+.bar span:hover{
+  background: #f0a500;
+}
+
+
+
+.myhtml{
+  width:90%;
+  animation: myhtml 2s;
+}
+
+@keyframes myhtml {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+
+.Database{
+  width:70%;
+  animation: Database 2s;
+}
+
+
+
+@keyframes Database  {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 70%;
+  }
+}
+.Javascript{
+  width:50%;
+  animation: Javascript 2s;
+}
+
+@keyframes Javascript {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 50%;
+  }
+}
+
+
+.Python{
+  width:60%;
+  animation: Python 2s;
+}
+
+@keyframes Python {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 60%;
+  }
 }
