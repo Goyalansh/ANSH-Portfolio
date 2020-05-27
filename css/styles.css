@@ -79,6 +79,8 @@ hr {
 
 .top-links:hover {
   color: #fff;
+  font-size: 27px;
+  transition: .7s;
 }
 
 
