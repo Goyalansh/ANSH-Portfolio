@@ -57,6 +57,8 @@ hr {
   font-weight: 400;
 }
 
+
+
 #bottom-container {
   padding-top: 20px;
   background-color: #ececec;
@@ -111,16 +113,15 @@ hr {
 
 .contact-me {
   padding: 2%;
-  position: relative;
 }
 
+.contact-heading{
+   display:inline;
+}
 
 .footer-link {
   color: #381460;
 }
-
-
-
 
 /* images */
 .top-cloud {
@@ -238,8 +239,25 @@ hr {
     height: 60px;
     width: 60px;
   }
+
 }
 
+@media (max-width:1521px) {
+  .contact-image{
+    height: 0px;
+    width: 0px;
+  }
+  .contact-image-2{
+    height: 0px;
+    width: 0px;
+  }
+  .contact-heading{
+    visibility: hidden;
+  }
+  #bottom-container{
+    background-color: white;
+  }
+}
 
 
 
