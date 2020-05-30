@@ -15,8 +15,8 @@ body {
 
 h1 {
   color: #45b29a;
-  font-size: 320%;
-  font-family: 'Sacramento', cursive;
+  font-size: 290%;
+font-family: 'Marcellus SC', serif;
 }
 
 
@@ -24,7 +24,7 @@ h1 {
 h2 {
   color: #45b29a;
   font-size: 300%;
-  font-family: 'Sacramento', cursive;
+font-family: 'Marcellus SC', serif;
 }
 
 h3 {
@@ -76,11 +76,11 @@ hr {
   font-family: 'Monoton';
   margin: 10px 50px 0px 50px;
   font-size: 25px;
-  color: #45b29a;
+  color: #fff;
 }
 
 .top-links:hover {
-  color: #fff;
+  color: #6f0000;
   transition: .7s;
 }
 
@@ -125,8 +125,8 @@ hr {
 /* images */
 .top-cloud {
   position: absolute;
-  bottom: 70%;
-  right: 10%;
+  bottom: 65%;
+  right: 5%;
 }
 
 .my-image {
@@ -137,7 +137,7 @@ hr {
 
 .bottom-cloud {
   position: absolute;
-  left: 5%;
+  left: 6%;
 }
 
 .land {
@@ -346,7 +346,6 @@ hr {
 #navbar {
   float:left;
   display: block;
-  color: white;
   text-align: center;
   padding: 15px;
   text-decoration: none;
