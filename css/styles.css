@@ -253,6 +253,14 @@ hr {
     height: 0px;
     width: 0px;
   }
+  .top-cloud{
+    height: 0px;
+    width: 0px;
+  }
+  .bottom-cloud{
+    height: 0px;
+    width: 0px;
+  }
   .contact-heading{
     visibility: hidden;
   }
