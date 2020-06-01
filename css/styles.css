@@ -130,6 +130,7 @@ hr {
 }
 
 .my-image {
+  margin-top: 25px;
   height: 15%;
   width: 15%;
   border-radius: 100%;
@@ -181,6 +182,20 @@ hr {
   width: 7%;
   float: right;
   margin-right: 500px;
+}
+
+.tree-image{
+  height: 25%;
+  width: 25%;
+  float: left;
+  margin-left: 200px;
+}
+
+.tree-image-2{
+  height: 25%;
+  width: 25%;
+  float: right;
+  margin-right: 200px;
 }
 
 /*social symbols */
