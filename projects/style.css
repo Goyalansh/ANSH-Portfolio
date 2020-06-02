@@ -4,8 +4,16 @@
   transition: 1s;
 }
 
+body{
+  background-color: black;
+}
+
 a{
   target:"_blank";
+}
+
+:root{
+    --neon-border-color: #08f;
 }
 
 .header{
@@ -14,75 +22,58 @@ a{
 
 
 h1 {
+  border-width: 2.5px;
+  border-style: solid;
+  border-color: white;
+
+
+  box-shadow:
+    0 0 .5rem #fff,
+    inset 0 0 .5rem #fff,
+    0 0 2rem var(--neon-border-color),
+    inset 0 0 2rem var(--neon-border-color),
+    0 0 4rem var(--neon-border-color),
+    inset 0 0 4rem var(--neon-border-color);
+
+
+  margin-left: 520px;
+  display: inline-block;
+  width: 700px;
+  border-radius: 2rem;
+  background-color: black;
   margin-top: 60px;
+   text-shadow: 0 0 6px white;
   text-align: center;
   color: #45b29a;
-  font-size: 290%;
   font-family: 'Monoton', serif;
+
 }
 
-/* rainbow */
-.wrapper {
-  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
-  background-size: 1800% 1800%;
-  -webkit-animation: rainbow 18s ease infinite;
-  -z-animation: rainbow 18s ease infinite;
-  -o-animation: rainbow 18s ease infinite;
-  animation: rainbow 18s ease infinite;
+
+
+.neon {
+
+  color: #FB4264;
+  font-size: 2.5vw;
+  line-height: 6vw;
+  text-shadow: 0 0 3vw #F40A35;
 }
 
-@-webkit-keyframes rainbow {
-  0% {
-    background-position: 0% 82%
-  }
 
-  50% {
-    background-position: 100% 19%
-  }
+.neon {
+  animation: neon 2s ease infinite;
+  -moz-animation: neon 2s ease infinite;
+  -webkit-animation: neon 2s ease infinite;
+}
 
+@keyframes neon {
+  0%,
   100% {
-    background-position: 0% 82%
+    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128;
+    color: #FED128;
   }
-}
-
-@-moz-keyframes rainbow {
-  0% {
-    background-position: 0% 82%
-  }
-
   50% {
-    background-position: 100% 19%
-  }
-
-  100% {
-    background-position: 0% 82%
-  }
-}
-
-@-o-keyframes rainbow {
-  0% {
-    background-position: 0% 82%
-  }
-
-  50% {
-    background-position: 100% 19%
-  }
-
-  100% {
-    background-position: 0% 82%
-  }
-}
-
-@keyframes rainbow {
-  0% {
-    background-position: 0% 82%
-  }
-
-  50% {
-    background-position: 100% 19%
-  }
-
-  100% {
-    background-position: 0% 82%
+    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B;
+    color: #806914;
   }
 }
