@@ -1,10 +1,14 @@
-.abc{
+.whitish{
   background-color: #edf4f2;
 }
 .project:hover {
   opacity: .8;
   transform: scale(1.1);
   transition: 1s;
+}
+
+.forQuotePadding{
+  padding-bottom: 0px;
 }
 
 .container{
@@ -67,6 +71,34 @@ h1 {
   -webkit-animation: neon 2s ease infinite;
 }
 
+
+.neonQ {
+  color: #FB4264;
+  font-size: 3.8vw;
+  font-family: 'Qwigley', cursive;
+  padding-top: 12px;
+  padding-bottom: 0px;
+  text-shadow: 0 0 3vw #F40A35;
+}
+
+.neonQ {
+  animation: neon 2s ease infinite;
+  -moz-animation: neon 2s ease infinite;
+  -webkit-animation: neon 2s ease infinite;
+}
+.neonN {
+  color: #FB4264;
+  font-size: 2.0vw;
+    font-family: 'Qwigley', cursive;
+  margin-bottom: 10px;
+  text-shadow: 0 0 3vw #F40A35;
+}
+
+.neonN {
+  animation: neon 2s ease infinite;
+  -moz-animation: neon 2s ease infinite;
+  -webkit-animation: neon 2s ease infinite;
+}
 @keyframes neon {
 
   0%,
