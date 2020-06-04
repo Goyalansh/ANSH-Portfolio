@@ -7,6 +7,10 @@
   transition: 1s;
 }
 
+.container{
+  padding-top: 20px;
+}
+
 body {
   background-image: url("images/wall.jpg");
   background-size: cover;
