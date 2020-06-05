@@ -112,3 +112,16 @@ h1 {
     color: #806914;
   }
 }
+
+@media (max-width:1521px){
+  .neon{
+    font-size: 4.5vw;
+    padding: 15px;
+  }
+  .neonQ{
+    font-size: 5.5vw;
+  }
+  .neonN{
+    font-size: 4vw;
+  }
+}
