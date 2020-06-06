@@ -1,11 +1,7 @@
 .whitish{
   background-color: #edf4f2;
 }
-.project:hover {
-  opacity: .8;
-  transform: scale(1.1);
-  transition: .3s;
-}
+
 
 .forQuotePadding{
   padding-bottom: 0px;
@@ -124,4 +120,10 @@ h1 {
   .neonN{
     font-size: 4vw;
   }
+}
+
+.project:hover {
+  opacity: .8;
+  transform: scale(1.1);
+  transition: .3s;
 }
