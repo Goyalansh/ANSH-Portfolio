@@ -462,7 +462,7 @@ hr {
   }
 }
 .Javascript{
-  width:50%;
+  width:60%;
   animation: Javascript 2s;
 }
 
@@ -476,12 +476,12 @@ hr {
 }
 
 
-.Python{
-  width:60%;
-  animation: Python 2s;
+.React{
+  width:70%;
+  animation: React 2s;
 }
 
-@keyframes Python {
+@keyframes React {
   0%{
     width: 0%;
   }
